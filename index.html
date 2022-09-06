@@ -1,4 +1,29 @@
-<ul>
-  <li><a href = "http://example.com/">Кнопка</a></li>
-  <li><a href = "https://example.com/">Кнопка на https</a></li>
-</ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li><a id="anchor"href="http://example.com/">абсолютную гиперссылку на главную страницу сайта example.com; </a></li>
+        <li><a id="anchor2"href="https://example.com/">абсолютную на главную сайта example.com в протоколе https; </a></li>
+        <li><a href="ftp://example.com/">ссылку на файл на сервере FTP без авторизации;</a></li>
+        <li><a href="ftp://example.com/user:pass123@gmail.ru">сылку на файл на сервере FTP с авторизацией; </a></li>
+        <li><a href="https://www.iana.org/domains/reserved/#sidenav">ссылку на фрагмент страницы некоторого сайта; </a></li>
+        <li><a href="#anchor">сылку на фрагмент текущей страницы;  </a></li>
+        <li><a href="https://example.com/?name=kubsu && pass=123">ссылку с двумя параметрами в URL; ; </a></li>
+        <ul>
+            <li><a title="zxcded" href="anchor">Ссылка на первую ссылку</a></li>
+            <li><a href="anchor2">Ссылка на вторую ссылку</a></li>
+
+        </ul>
+        <li><a>сылку на файл на сервере FTP с авторизацией; </a></li>
+        <li><a href="">сылку на файл на сервере FTP с авторизацией; </a></li>
+        <li><a href="ftp://example.com/user:pass123@gmail.ru" rel="nofollow">сылку на файл на сервере FTP с авторизацией; </a></li>
+        <li><noindex><a href="ftp://example.com/user:pass123@gmail.ru">сылку на файл на сервере FTP с авторизацией; </a></noindex></li>
+        <li><a  href="C:\Users\s0169457\Downloads\image.jpg">сылку на файл на сервере FTP с авторизацией; </a></li>
+    </ol>
+</body>
+</html>
