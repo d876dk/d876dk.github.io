@@ -212,3 +212,62 @@ body{
 	padding-top: 0;
 	font-size: 4.8em;
 }
+.services{
+	padding: 7em 0 0 ;
+}
+.services__title{
+	font-size: 2.4em;
+	font-weight: bold;
+	color: #050c33;
+	margin-bottom: 1.2em;
+}
+.services__subtitle{
+	font-weight: 500;
+	font-size: 1.6em;
+	color: #4f5a73;
+	margin-bottom: 3.75em;
+}
+.services__block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.services__block-item:nth-child(even){
+	margin-left: 3em;
+}
+.services__block-item{
+	position: relative;
+	width: 18.5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #4f5a73;
+	margin-bottom: 2em;
+	height: 19em;
+}
+.services__block-item-header{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.services__block-item-img{
+	background-position: center;
+	width: 7.7em;
+	height: 7.7em;
+	background-size: cover;
+	margin-bottom: 3em;
+}
+.services__block-item::before{
+	background: url("../img/icon-bg.svg") center center no-repeat;
+	background-size: cover;
+	left: 0;
+	top: 1.2em;
+	content: "";
+	height: 7.1em;
+	width: 11.4em;
+	position: absolute;
+}
+.services__block-item-text{
+	font-size: 1.4em;
+}
